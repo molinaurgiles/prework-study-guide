@@ -1,0 +1,21 @@
+<!-- 
+    <style> element defines the CSS styles associated with website.
+    <base> element defines the base URL for a webpage
+    <script> element embeds client-side scripts in the HTML document
+    non-semantic elements such as <div> to create a division in the page or <span> to create an inline division, for structural purposes
+ -->
+    
+ <!-- Body Elements
+
+    <p> represents a paragraph or block of text 
+    <ul> unordered lists
+    <ol> ordered lists
+    <li> list items, bulleted
+    <br> element creates a line of empty space between two blocks of content
+        
+ -->
+    
+<!-- <a href
+        <a> (anchor) element creates links to the same webpage or other webpages
+        href attribute points to the URL link
+ -->
