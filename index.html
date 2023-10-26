@@ -1,29 +1,58 @@
 <!DOCTYPE html>
+<!-- <!DOCTYPE> is a declaration telling the browser what document type it should expect when it is opened. In this case it is HTML. -->
 <html lang="en">
+<!-- <html> tag represents the root of HTML document.'Lang' tells the browser the language for the webpage.-->
   <head>
+<!-- <head> element contains information that helps the browser to render the page correctly, not visible when looking at a webpage.-->
     <meta charset="UTF-8" />
+    <!-- charset: character set, sets character encoding -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- http-equiv element sets an HTTP header for content -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- viewport element sets the default view for the webpage -->
+    <!-- <meta> element defines metadata such as the character set, description, keyworkds, author, and viewport. -->
     <title>Prework Study Guide</title>
+    <!-- <title> element defines the title for a webpage, important for Search Engine Optimization (SEO).-->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!-- <link> element connects an external resource to the HTML document. rel: specifies relationship btwn current doc and linked doc
+        href: using a relative path, step by step how to get to the file -->
   </head>
   <body>
+    <!-- <body> element contains the content that is shown to the user.-->
     <header id="header">
       <h1>Prework Study Guide</h1>
+      <!-- h1(largest)-h6(smallest) -->
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <!-- <img> element contains info about images that are displayed; src: defines the location of the image; alt: attribute contains
+      a text string that describes the appearance and functionality of the image -->
     </header>
     <main>
       <section class="card" id="html-section">
+      <!-- <section> elements are semantic elements that define a section in a document, allows for organizing the content on the page 
+            "class" element assigned properties in CSS doc-->
         <h2>HTML</h2>
         <ul>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
+          <li>'pwd' displays the current working directory</li>
+          <li>'ls' displays the list of files and folders in the current directory</li>
+          <li>'cd' navigates between directories in the path</li>
+          <li>'cd ..' navigates backwards, one level at a time, through the path of your directories</li>
+          <li>'mkdir' creates a new directory</li>
+          <li>'touch' creates a file inside a directory</li>
         </ul>
       </section>
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here.</li>
+          <li>Selector: defines the element or attributes to which the rules, or declarations, will apply.
+          <li>Declaration: the CSS property we want to apply and the value of the property.</li>
+          <li>Margin: indicates how much space we want around the outside of an element. Not visible on the page.</li>
+          <li>Padding: Adds space around the content inside an element. Increasing padding makes the element bigger.</li>
+          <li>Adding a '*' in the declaration box declares that ALL of the elements on the page will have the style properties margin and padding set as the number you put. </li>
+          
+        
         </ul>
       </section>
    
@@ -31,7 +60,20 @@
         <h2>Git</h2>
         <ul>
           <li>git status: checks what branch we are currently o</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it.</li> </ul>
+        <h3>Github Workflow</h3>
+        <ul>
+            <li>Make sure you are on the branch you are pushing. To check: git status</li>
+            <li>Stage your changes by using: git add -A ; this commits all files in the working branch</li>
+            <li>To commit changes to repository use: git commit -m "add your note about changes here"</li>
+            <li>Make sure current branch is up to date before opening a pull request: git pull origin main</li>
+            <li>Push up all changes by using: git push origin feature/[branch title]</li>
+            <li> Merge feature branch into base branch: go to repository, select the feature branch you are working on</lin>
+            <li>Select Pull Request - New Pull Request</li>
+            <li>Merge Pull Request: feature branch should now show up on main branch</li>
+            <li>Update local repository with new merged-in feature: git checkout main, git pull origin main</li>
+            <li>Close HTML issue on Github; Issues - Select the one you want to close and select 'Close Issue'</li>
+        
         </ul>
       </section>
    
@@ -44,7 +86,8 @@
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <li>I can code!</li>
+      <!-- footer appears at the bottom of the page and usually contains the author, copyright, contact, sitemap, and navigation -->
     </footer>
   </body>
 </html>

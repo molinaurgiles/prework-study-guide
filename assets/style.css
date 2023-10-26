@@ -1,0 +1,52 @@
+* {
+/* '*' applies rule to all the elements visible on the page */
+    margin: 0;
+    /* acts like a margin, indicates how much space we want around the outside of an element, not visible on page */
+    padding: 0;
+    /* adds space around the content inside an element. Increasing the padding, makes the entire element bigger */
+}
+
+header,
+footer {
+/* can use a comma to combine two sectors into a single CSS rule */
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+img {
+    display: block; 
+    /* block: start on a new line */
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card {
+/* class selector, any HTML element assigned to the class card will gain the following property assignments from the CSS */
+    width: 80%;
+    margin: 40px auto;
+    /* 40 px top and bottom, auto value to left and right */
+    border: 5px solid grey;
+    /* assigns a border */
+    box-shadow: 5px 10px #888888;
+    /* adds shadow effects around an element's frame using X-defines the width of the shadow on X axis and Y offsets-defines the extent on the Y axis */
+}
