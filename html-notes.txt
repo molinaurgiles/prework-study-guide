@@ -1,11 +1,11 @@
-<!-- 
+
     <style> element defines the CSS styles associated with website.
     <base> element defines the base URL for a webpage
     <script> element embeds client-side scripts in the HTML document
     non-semantic elements such as <div> to create a division in the page or <span> to create an inline division, for structural purposes
- -->
+
     
- <!-- Body Elements
+ Body Elements
 
     <p> represents a paragraph or block of text 
     <ul> unordered lists
@@ -13,9 +13,25 @@
     <li> list items, bulleted
     <br> element creates a line of empty space between two blocks of content
         
- -->
+
     
-<!-- <a href
+<a href
         <a> (anchor) element creates links to the same webpage or other webpages
         href attribute points to the URL link
- -->
+ 
+ Java script
+ var (variable) is how we give a variable a name, must be unique
+ = assignment operator to assign specific data that we want stored in our variable.
+ Lnk js element within the body
+ Control Flow: the order in which a computer executes code in script. In JS, code runs from the first statement of the page down to the last.
+ location can be identified with a unique number called an index
+
+Multiple 
+ var shapes = ["triangle", "square", "pentagon", "circle"];
+for(var x = 0; x < shapes.length; x++) {
+    console.log(shapes[x]);
+}
+
+Single
+var shapes = ["triangle", "square", "pentagon", "circle"];
+console.log(shapes[0]);
