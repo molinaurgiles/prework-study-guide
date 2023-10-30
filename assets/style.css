@@ -45,7 +45,7 @@ p {
     width: 80%;
     margin: 40px auto;
     /* 40 px top and bottom, auto value to left and right */
-    border: 5px solid grey;
+    border: 5px solid blue;
     /* assigns a border */
     box-shadow: 5px 10px #888888;
     /* adds shadow effects around an element's frame using X-defines the width of the shadow on X axis and Y offsets-defines the extent on the Y axis */
